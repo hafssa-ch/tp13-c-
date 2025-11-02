@@ -64,9 +64,10 @@ Il permet de pratiquer la surcharge d'opérateurs, les templates, les pointeurs 
 
 ### Travail demandé
 - Définir un concept `Sortable` :
-```cpp
 template<typename T>
 concept Sortable = requires(T a, T b) {
     { a < b } -> std::convertible_to<bool>;
 };
-<img width="538" height="191" alt="image" src="https://github.com/user-attachments/assets/54624d3f-7bf7-4163-9e6b-d4a5ed0775e0" />
+
+<img width="538" height="191" alt="image" src="https://github.com/user-attachments/assets/e67f3af2-2eaf-48c9-b833-2dd413b838f0" />
+
